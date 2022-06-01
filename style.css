@@ -1,0 +1,171 @@
+  html, body {
+    font-family: 'Montserrat', sans-serif;
+      margin: 0;
+      padding: 0;
+      background:  linear-gradient(to right,aqua, rgb(12, 1, 51));
+    }
+    
+    .background {
+      /*position: absolute;*/
+      display: block;
+      top: 0;
+      left: 0;
+      z-index: 0;
+    }
+.caixa{
+    position: relative;
+    width: 90%;
+	margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+}
+/*
+.corpo{
+ background-image: url("https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js ");
+}*/
+.logo{
+    padding: 5%;
+}
+.titulo-principal{
+    color: aliceblue;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.desafios li:hover{
+	border-color: #000000;
+}
+.desafios li:active{
+	border-color: #088C19;
+}
+.desafios li:hover h2{
+		font-size: 34px;
+}
+.desafios{
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+.desafios li{
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 1.5% 1.5%;
+	padding: 30px 20px 20px;
+	box-sizing: border-box;
+	border: 2px solid #e8fa22;
+	border-radius: 10px;
+    
+}
+.desafios h2{
+	font-size: 30px;
+	font-weight: bold;
+    color: aliceblue;
+}
+.desafios p{
+    margin: 1ch;
+    color: rgb(0, 0, 0);
+    background-color: #e8fa22;
+    border: 2px solid #e8fa22;
+	border-radius: 10px;
+    text-decoration: none;
+}
+.desafios a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.javalogo{
+    width: 170px;
+    height: 170px;
+}
+.lkdnlogo{
+    
+    width: 45px;
+    height: 40px;
+}
+.lkdn a{
+    padding: 1em;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    font-size:25px ;
+    display: block;
+
+}
+.botao-inicio{
+   
+    /*text-align: center;
+    padding: 20px, 0;
+    width: 10%;
+    box-sizing: border-box;
+    border: 2px solid #e8fa22;
+    background-color: #000000;
+    border-radius: 10px;*/
+    
+    text-align: center;
+    background-color: #000000;
+    color: aliceblue;
+    margin: auto;
+    padding: 5px 6px;
+    box-sizing: border-box;
+    width: 90px;
+    border-style: solid;
+    border-color: rgb(4, 180, 7);
+    border-radius: 20px;
+
+    }
+.botao-inicio a{
+    text-align: center;
+    color: beige;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+.btnEnunciado{
+    text-align: center;
+    padding: 15px;
+
+}
+.btnPadrao{
+    background-color: #000000;
+    color: aliceblue;
+    padding: 5px 6px;
+    width: 90px;
+    border-style: solid;
+    border-color: rgb(4, 180, 7);
+    border-radius: 20px;
+}
+.btnSoluc{
+    background-color: #000000;
+    color: aliceblue;
+    padding: 5px 6px;
+    width: 90px;
+    border-style: solid;
+    border-color: rgb(4, 180, 7);
+    border-radius: 20px;
+}
+
+.enunciado {
+    display: none;
+    position: relative;
+    margin: auto;
+    width: 80%;
+    border: 2px solid #088C19;
+    background-color: #000000;
+    color: #088C19;
+}
+.enunciado p{
+    padding: 2%;
+    position: relative;
+	margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
